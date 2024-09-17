@@ -6,6 +6,7 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.6.1"
+kotlinBom = "1.8.22"
 material = "1.10.0"
 activity = "1.9.1"
 constraintlayout = "2.1.4"
@@ -13,6 +14,7 @@ constraintlayout = "2.1.4"
 #HMS
 agconnect = "1.9.1.301"
 hmsMap = "6.11.2.301"
+places = "3.5.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -20,6 +22,7 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlinBom" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
@@ -28,6 +31,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 agconnect = { module = "com.huawei.agconnect:agcp", version.ref = "agconnect" }
 gradleplugin = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 hmsMap = { module = "com.huawei.hms:maps", version.ref = "hmsMap" }
+places = { module = "com.google.android.libraries.places:places", version.ref = "places" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

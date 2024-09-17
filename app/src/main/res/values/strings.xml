@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PlaceApiDemo</string>
+    <string name="autocomplete_address1_label">Address Line</string>
 </resources>

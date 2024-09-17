@@ -55,6 +55,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -70,5 +74,9 @@ dependencies {
 
     // HMS SDKs
     implementation(libs.hmsMap)
+
+    // Google Place
+    implementation(platform(libs.kotlin.bom))
+    implementation(libs.places)
 
 }
